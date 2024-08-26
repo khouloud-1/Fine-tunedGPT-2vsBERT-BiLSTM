@@ -99,7 +99,7 @@ training_args_category = TrainingArguments(
 
 training_args_super_category = TrainingArguments(
     output_dir='./results_super_category',
-    num_train_epochs=5,  # Increase the number of epochs
+    num_train_epochs=3,  # Increase the number of epochs
     per_device_train_batch_size=1,  # Set batch size to 1 to avoid padding issues
     per_device_eval_batch_size=1,  # Set batch size to 1 to avoid padding issues
     warmup_steps=500,
